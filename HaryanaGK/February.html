@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Er. Surender Panwar</title>
+</head>
+
+<body>
+
+    <!-- > <br> 
+  <h1>WellCome to Er. Surender Panwar</h1>-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <br>
+            <a class="navbar-brand">iCoder</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/about.html">About</a>
+                    </li>
+                    <a class="nav-link " aria-current="page" href="/blog.html">Blog</a>
+                    <li class="nav-item">
+                    </li>
+                    <a class="nav-link " aria-current="page" href="/Contact.html">Contact us</a>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-dark" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#LoginModal">
+                        Login
+                    </button>
+                    <!-- Login Modal -->
+                    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="LoginModalLabel">Login into iCoder</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" type="Type your email"
+                                                placeholder="Type your email" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" type="Type your password"
+                                                placeholder="password" id="exampleInputPassword1">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Login</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#SignUpModal">
+                        SignUp
+                    </button>
+                    <!-- SignUp Modal -->
+                    <div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="SignUpModalLabel">Get an iCoder Account</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                                anyone else.</div><br>
+                                            <div class="row g-3 align-items-center">
+                                                <label for="inputPassword5" class="form-label">Password</label>
+                                                <input type="password" id="inputPassword5" class="form-control"
+                                                    aria-describedby="passwordHelpBlock">
+                                                <span id="passwordHelpInline" class="form-text">
+                                                    Must be 8-20 characters long.
+                                                </span>
+                                                <label for="cinputPassword5" class="form-label">ConfirmPassword</label>
+                                                <input type="password" id="cinputPassword5" class="form-control"
+                                                    aria-describedby="passwordHelpBlock">
+                                                <div id="passwordHelpBlock" class="form-text">
+                                                    <div class="col-auto">
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 form-check">
+                                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                    <label class="form-check-label" for="exampleCheck1">Check me
+                                                        out</label>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Creat Account</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="jsx-2880253090">
+        <div class="jsx-2080253090 mx-2 justify-center align-middle">
+        <div class="jsx-2880253090  flex flex-wrap lg:-mx-1 xl-1">
+            <div class="w-full border lg:my-1 lg:px-1 lg:w-2/3 xl:my-1 xl:px-1 xl:w-2/3 mx-auto">
+         </div>
+        </div>
+    </div>
+    
+
+    <div class="container">
+
+
+
+
+
+
+
+    <div id="panels" class="jsx-2880253090">
+        <div class="jsx-2880253090 lg:w-2/3">
+            <h1 class="jsx-2880253090 text-2xl lg:text-3xl font-semibold mx-4 lg:mx-16 my-2">January 2021 to December 2021</h1>
+            <div class="jsx-2880253090 mx-4 lg:mx-16 panel-1 tab-content py-5 break-words">
+                
+                <p class="MsoNormal"><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">&nbsp;</span>
+                </p>
+                
+                    <p class="MsoNormal"><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">01/01/2021</span></strong></p>
+                <p class="MsoNormal"><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;"><b> भारत के प्रधानमंत्री व मंत्रीपरिषद्  :-- <br> <br></b> 
+
+                        <em> 📒 भारत के प्रधानमंत्री की नियुक्ति करने वाला कौन है— राष्ट्रपति <br> <br>
+                         
+                         📒 योजना अयोग का अध्यक्ष कौन व्यक्ति होता है— प्रधानमंत्री <br> <br>
+                         
+                         📒 सघीय मंत्रिमंडल की बैठक का सभापति कौन व्यक्ति होता है— प्रधानमंत्री  <br> <br>
+                         
+                         📒 परधानमंत्री का कार्यकाल है— 5 वर्ष  <br> <br>
+                         
+                         📒 परधानमंत्री पद से त्याग पत्र देने वाले भारत के पहले प्रधानमंत्री थे— मोरारजी देसाई  <br> <br>
+                         
+                         📒 सबसे अधिक समय तक प्रधानमंत्री रहने वाले— जवाहर लाल नेहरू  <br> <br>
+                         
+                         📒 परधानमंत्री बनने के लिए न्यूनतम आयु— 25 वर्ष  <br> <br>
+                         
+                         📒 ससदीय शासन प्रणाली सबसे पहले किसे देश में लागू हुई— ब्रिटेन  <br> <br>
+                         
+                         📒 भारतीय संविधान के अनुसार तथ्यात्मक संप्रभुता किस व्यक्ति मे निहित होती है— प्रधानमंत्री में  <br> <br>
+                         
+                         📒 भारत के पहले प्रधानमंत्री— जवाहर लाल नेहरू  <br> <br>
+                         
+                         📒 कितने प्रधानमंत्रियों की मौत अपने पद पर रहते हुए हुई है— तीन  <br> <br>
+                         
+                         📒 परधानमंत्री को पद की शपथ कौन दिलाता है— राष्ट्रपति  <br> <br>
+                         
+                         📒 परधानमंत्री जिसने  एक बार अपने पद से हटने के बाद दोबारा पद संभाला— इंदिरा गाँधी  <br> <br>
+                         
+                         📒 जवाहरलाल नेहरू के बाद भारत के प्रधानमंत्री— गुजजारी लाल नंदा  <br> <br>
+                         
+                         📒 ससदीय शासन प्रणाली में वास्तविक कार्यपालिका की शक्ति किस व्यक्ति के पास होती है— प्रधानमंत्री के पास  <br> <br>
+                         
+                         📒 सबसे कम आयु में प्रधानमंत्री— राजीव गाँधी  <br> <br>
+                         
+                         📒 लोकसभा में बहुमत दल का नेता होता है— प्रधानमंत्री  <br> <br>
+                         
+                         📒 कौन से प्रधानमंत्री की नियुक्ति के वक्त वे किसी सदन मे सदस्य नहीं थे— एच. डी. देवगौड़ा  <br> <br>
+                         
+                         📒 वह प्रधानमंत्री जो एक भी दिन संसद नही गए— चौ. चरण सिंह <br> <br>
+                         
+                         📒 यथार्थ कार्यपालिका की समस्त सत्ता जिसमे निहित होती है वह है— मंत्रिपरिषद में  <br> <br>
+                         
+                         📒 सघीय मंत्रिपरिषद के मंत्री किस लिए उत्तरदायी होते हैं— लोकसभा के  <br> <br>
+                         
+                         📒 किसी भी सदन का सदस्य बने बिना कोई व्यक्ति मंत्री पद पर कितने दिन रह सकता है— 6 माह  <br> <br>
+                         
+                         📒 सविधान के जिस अनुच्छेद में मंत्रिपरिषद की नियुक्ति व पदच्युति का प्रावधान है वह है— अनुच्छेद-75  <br> <br>
+                         
+                         📒 मत्रिमंडल का गठन करने वाला कौन होता है— केंद्रीय मंत्री  <br> <br>
+                         
+                         📒 सवतंत्र भारत के पहले कानूनी मंत्री का नाम था— डॉ. बी. आर. अंबेडकर  <br> <br>
+                         
+                         📒 जो प्रस्ताव संसद में मंत्रिपरिषद रख सकती है वह है— विश्वास प्रस्ताव  <br> <br>
+                         
+                         📒 मत्रिपरिषद् के सदस्यों को शपथ दिलाता है— राष्ट्रपति  <br> <br>
+                         
+                         📒 भारत के मंत्रिपरिषद् में अधिक सदस्य लिये जाते हैं— लोकसभा से  <br> <br>
+                         
+                         📒 सवतंत्र भारत के पहले प्रतिरक्षा मंत्री— सरदार पटेल  <br> <br>
+                         
+                         📒 सवतंत्र भारत के पहले वित्त— डॉ. जॉन मथाई  <br> <br>
+                         
+                         📒 राज्यसभा का सदस्य मंत्रिपरिषद का सदस्य हो सकता है
+                         — हाँ <br> <br></em></span></p>
+                <p class="MsoNormal"><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">&nbsp;</span>
+                </p>
+                <p class="MsoNormal"><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Installation
+                        </span></strong></p>
+                <p class="MsoNormal"><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">First
+                        of all, we will install some important programs which will be required throughout our Tailwind
+                        Journey-</span></p>
+                <p class="MsoNormal" style="margin-left: 36.0pt; text-indent: -18.0pt; mso-list: l0 level1 lfo1;">
+                    <!-- [if !supportLists]--><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">●<span
+                            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </span></span>
+                    <!--[endif]--><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Install
+                            VS code:</span></strong><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">
+                        You can easily download the VS code by clicking </span><a
+                        href="https://code.visualstudio.com/download"><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto; color: #1155cc;">here</span></a><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">.
+                        Moreover, Install the live server extension in VS code as it allows us to visualize our static
+                        page by opening the page with a live server.</span>
+                </p>
+                <p class="MsoNormal" style="margin-left: 36.0pt; text-indent: -18.0pt; mso-list: l0 level1 lfo1;">
+                    <!-- [if !supportLists]--><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">●<span
+                            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </span></span>
+                    <!--[endif]--><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Adding
+                            Tailwind CSS:</span></strong><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">
+                        To add tailwind CSS to your file, simply visit the official documentation by clicking </span><a
+                        href="https://tailwindcss.com/docs/installation/play-cdn"><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto; color: #1155cc;">here</span></a><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">.
+                        After that, From the play CDN section, just copy the script and add it to the “&lt;head&gt;” of
+                        your HTML file. Hence, we can now use Tailwind CSS in our HTML file.</span>
+                </p>
+                <p class="MsoNormal" style="margin-left: 36.0pt; text-indent: -18.0pt; mso-list: l0 level1 lfo1;">
+                    <!-- [if !supportLists]--><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">●<span
+                            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </span></span>
+                    <!--[endif]--><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Install
+                            Node Js</span></strong><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">:
+                        You can Download Nodejs by clicking </span><a href="https://nodejs.org/en/download/"><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto; color: #1155cc;">here</span></a><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">.
+                        Select your OS and click on next, and your Nodejs will be installed.</span>
+                </p>
+                <p class="MsoNormal" style="margin-left: 36.0pt; text-indent: -18.0pt; mso-list: l0 level1 lfo1;">
+                    <!-- [if !supportLists]--><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">●<span
+                            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </span></span>
+                    <!--[endif]--><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Installing
+                            ‘Tailwind CSS IntelliSense’ extension</span></strong><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">:
+                        This extension provides some advanced features such as autocomplete, syntax highlighting, and
+                        linting.</span>
+                </p>
+                <p class="MsoNormal" style="margin-left: 36.0pt;"><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">&nbsp;</span>
+                </p>
+                <p class="MsoNormal"><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Workspace
+                            Settings Walkthrough</span></strong></p>
+                <p>&nbsp;</p>
+                <p class="MsoNormal"><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Now,
+                        I will provide a short walkthrough of the settings of my VS code as many people ask about some
+                        settings throughout the course. Here’s the look of my settings.json file-</span></p>
+                <p class="MsoNormal"><img
+                        src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/90229083c8c43ec8a1244cd1d6528b39.png"
+                        alt=""></p>
+                <p class="MsoNormal"><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Figure
+                            1.1: Customising Settings</span></strong></p>
+                <p class="MsoNormal"><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Creating
+                            Navbar</span></strong></p>
+                <p class="MsoNormal"><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Now,
+                        let’s begin creating a Navbar to show you the power of Tailwind and make you familiar with the
+                        workspace as shown below-</span></p>
+                <p class="MsoNormal"><img
+                        src="https://codewithharry.nyc3.cdn.digitaloceanspaces.com/assets/e36b402f62a428106141d222ec576cb1.png"
+                        alt=""></p>
+                <p class="MsoNormal"><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Figure
+                            1.2: Creating Navbar</span></strong></p>
+                <p class="MsoNormal"><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Explanation:</span></strong><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">
+                        Here, we have added a navbar having a ‘Home’, ‘About’, and a ‘Contact’ section. Moreover, we
+                        have added some classes to enhance the look of the Navbar. In the above case, we have provided
+                        the desired padding, text color, and a purple background to the navbar. In addition to this, we
+                        have appended the cursor pointer class to our list. Here’s a quick tip, Tailwind provides you
+                        with an amazing feature of quick search to get the list of all the ‘classes’ related to a
+                        specific property.</span></p>
+                <p class="MsoNormal"><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">&nbsp;</span>
+                </p>
+                <p class="MsoNormal"><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Installing
+                            Tailwind CSS - For Production</span></strong></p>
+                <p class="MsoNormal"><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">We
+                        want to use Tailwind CSS in the production of our application, therefore we would install the
+                        Tailwind with the help of Post CSS, Vite, and Autoprefixer. To install Tailwind for production,
+                        simply execute the below command in the Terminal-</span></p>
+                <div class="code-toolbar">
+                    <pre class=" language-markup"
+                        tabindex="0"><code class=" language-markup">npm install -D tailwindcss postcss autoprefixer</code></pre>
+                    <div class="toolbar">
+                        <div class="toolbar-item"><button class="copy-to-clipboard-button" type="button"
+                                data-copy-state="copy"><span>Copy</span></button></div>
+                    </div>
+                </div>
+                <p class="MsoNormal"><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Installing
+                            Vite</span></strong></p>
+                <p class="MsoNormal"><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">After
+                        executing the above command, Install Vite with the help of the below command. In package.json,
+                        make sure to add a script section to run vite whenever npm start is executed. </span></p>
+                <div class="code-toolbar">
+                    <pre class=" language-javascript"
+                        tabindex="0"><code class=" language-javascript">npm install vite</code></pre>
+                    <div class="toolbar">
+                        <div class="toolbar-item"><button class="copy-to-clipboard-button" type="button"
+                                data-copy-state="copy"><span>Copy</span></button></div>
+                    </div>
+                </div>
+                <p class="MsoNormal"><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Initialising
+                            Tailwind</span></strong></p>
+                <p class="MsoNormal"><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Finally,
+                        for the initialization of the Tailwind, you have to use the below command-</span></p>
+                <div class="code-toolbar">
+                    <pre class=" language-javascript"
+                        tabindex="0"><code class=" language-javascript">npx tailwindcss init</code></pre>
+                    <div class="toolbar">
+                        <div class="toolbar-item"><button class="copy-to-clipboard-button" type="button"
+                                data-copy-state="copy"><span>Copy</span></button></div>
+                    </div>
+                </div>
+                <p class="MsoNormal"><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">After
+                        the execution of the above command, a Tailwind.config.js file will be created. Make sure to add
+                        a “*” in the content section as we will be using the Tailwind in the complete content.</span>
+                </p>
+                <p class="MsoNormal">&nbsp;</p>
+                <p class="MsoNormal" style="text-align: left;" align="center"><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">In
+                        the upcoming videos, we will be having a quick revision of the Tailwind CSS. In addition to
+                        this, we will be covering a lot of new concepts of Tailwind by creating some astonishing
+                        projects.</span><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">&nbsp;</span></strong>
+                </p>
+                <p class="MsoNormal" style="text-align: left;" align="center"><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Check
+                        out our Github to access the source code of the course, &nbsp;<a
+                            href="https://github.com/CodeWithHarry/Master-Tailwind" target="_blank" rel="noopener">Click
+                            Here</a></span></p>
+                <p class="MsoNormal"><span
+                        style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">
+                    </span></p>
+                <p class="MsoNormal" style="text-align: left;" align="center"><strong><span
+                            style="font-size: 13.0pt; line-height: 115%; font-family: Roboto; mso-fareast-font-family: Roboto; mso-bidi-font-family: Roboto;">Thank
+                            you for being with me throughout the tutorial. See you all in the next tutorial. Till then
+                            Keep learning and Keep Coding.</span></strong></p>
+                <p>&nbsp;</p>
+            </div>
+        </div>
+                </div>
+                
+        <div class="jsx-2880253090 flex mx-4 lg:mx-16 my-3 px-3 justify-between lg:w-2/3"><span
+                class="jsx-2880253090 w-24 text-center inline-block bg-purple-800 rounded-full px-3 py-2 text-sm font-semibold text-white mr-2 mb-2 hover:bg-purple-600 cursor-pointer">
+                Previous </span><span
+                class="jsx-2880253090 w-24 text-center inline-block bg-purple-800 rounded-full px-3 py-2 text-sm font-semibold text-white mr-2 mb-2 hover:bg-purple-600 cursor-pointer">
+                Next </span></div>
+    </div>
+
+
+</body>
